@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  z-index: 2;
+}
+.heder__container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  margin-right: 30px;
+}
+.header__menu {
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__body {
+}
+.menu__list {
+  display: flex;
+  gap: 15px;
+}
+.menu__item {
+}
+.menu__link {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--link-color);
+  transition: all 0.3s ease;
+}
+.menu__link:hover {
+  color: var(--hover-color);
+}
+.menu__icon {
+}
+.icon-menu {
+}
