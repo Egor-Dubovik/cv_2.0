@@ -3,6 +3,7 @@
 @import url("./header.css");
 @import url("./first-screen.css");
 @import url("./social-links.css");
+@import url("./about.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
@@ -38,6 +39,21 @@ h1 {
 }
 
 h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h3 {
   font-size: 26px;
   font-weight: 400;
+}
+
+.title--section {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .title--section {
+    margin-bottom: 20px;
+  }
 }

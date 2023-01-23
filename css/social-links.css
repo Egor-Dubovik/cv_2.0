@@ -3,11 +3,11 @@
   gap: 3px;
 }
 .bx {
-  font-size: 26px;
-  transition: all 0.3s ease;
   padding: 2px;
-  color: #000;
+  font-size: 26px;
+  color: var(--link-color);
+  transition: all 0.3s ease;
 }
 .bx:hover {
-  color: red;
+  color: var(--hover-color);
 }
