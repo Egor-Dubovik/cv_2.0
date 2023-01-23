@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>CV 2.0</title>
 </head>
 
@@ -13,38 +14,58 @@
     <div class="wraper">
         <header class="header">
             <div class="heder__container">
-                <a href="" class="header__logo"><img data-src="../img/logo.svg" alt="logo"></a>
+                <a href="" class="header__logo"><img data-src="../img/logo.svg" alt="logo" /></a>
                 <div class="header__menu menu">
                     <nav class="menu__body">
                         <ul class="menu__list">
-                            <li class="menu__item"><a href="" class="menu__link">about</a></li>
-                            <li class="menu__item"><a href="" class="menu__link">education</a></li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">about</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">education</a>
+                            </li>
                         </ul>
                     </nav>
-                    <button type="button" class="menu__icon icon-menu"><span></span></button>
+                    <button type="button" class="menu__icon icon-menu">
+                        <span></span>
+                    </button>
                 </div>
             </div>
         </header>
-        <section class="first-screen">
-            <div class="first-screen__container">
-                <div class="first-screen__information">
-                    <h1 class="first-screen__title">Web developer</h1>
-                    <p class="first-screen__name">Egor Dubovik</p>
-                    <div class="first-screen__description description">
-                        <p class="description__text">I'm engaged in front-end development, for cooperation write</p>
-                        <ul class="description__social-links social-links">
-                            <li class="social-links__link"><a target="_blank" href="https://t.me/ego_dubovik">tg</a>
-                            </li>
-                            <li class="social-links__link"><a target="_blank"
-                                    href="https://github.com/Egor-Dubovik">githab</a></li>
-                        </ul>
+        <main class="main">
+            <section class="first-screen">
+                <div class="first-screen__container">
+                    <div class="first-screen__information">
+                        <h1 class="first-screen__title">Web developer</h1>
+                        <h2 class="first-screen__sub-title">Egor Dubovik</h2>
+                        <div class="first-screen__description description">
+                            <p class="description__text">
+                                I'm engaged in front-end development, for cooperation write
+                            </p>
+                            <ul class="description__social-links social-links">
+                                <li class="social-links__link">
+                                    <a target="_blank" href="https://t.me/ego_dubovik"><i
+                                            class="bx bxl-telegram"></i></a>
+                                </li>
+                                <li class="social-links__link">
+                                    <a target="_blank" href="https://github.com/Egor-Dubovik"><i
+                                            class="bx bxl-github"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="first-screen__image">
+                        <img src="./images/cv.png" alt="my image" />
                     </div>
                 </div>
-                <div class="first-screen__image">
-                    <img src="./images/cv.png" alt="my image">
-                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                footer
             </div>
-        </section>
+        </footer>
     </div>
     <script src="./js/script.js"></script>
 </body>
