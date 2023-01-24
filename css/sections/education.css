@@ -1,0 +1,60 @@
+.education {
+  padding: 20px 0;
+  background-color: var(--second-bg-color);
+}
+
+.education__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: calc(16px + 2 * ((100vw - 320px) / 1920));
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.education__item::before {
+  content: "";
+  display: flex;
+  flex: 0 0 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #5066f2;
+  box-shadow: 1px 1px 1px #9c9c9c;
+  margin: 10px 20px 10px 0px;
+  animation: dots 10s linear infinite;
+}
+
+@-webkit-keyframes dots {
+  0% {
+    background-color: #5066f2;
+  }
+  10% {
+    background-color: #775de6;
+  }
+  20% {
+    background-color: #a454d9;
+  }
+  30% {
+    background-color: #f942c0;
+  }
+  40% {
+    background-color: #f23bbb;
+  }
+  50% {
+    background-color: #d42db4;
+  }
+  60% {
+    background-color: #d42db4;
+  }
+  70% {
+    background-color: #7a049f;
+  }
+  80% {
+    background-color: #77039f;
+  }
+  90% {
+    background-color: #77039f;
+  }
+  100% {
+    background-color: #5066f2;
+  }
+}
