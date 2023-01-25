@@ -112,7 +112,7 @@
   position: absolute;
   left: 15px;
   top: 15px;
-  background-color: #5066f2;
+  background-color: var(--decor-color);
   width: 2px;
   height: 70%;
   transform: translate(-50%);
@@ -138,7 +138,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #5066f2;
+  background-color: var(--decor-color);
   box-shadow: 1px 1px 1px #9c9c9c;
 }
 .project__item span::after {
