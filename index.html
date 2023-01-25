@@ -14,15 +14,18 @@
     <div class="wraper">
         <header class="header">
             <div class="heder__container">
-                <a href="" class="header__logo"><img data-src="../img/logo.svg" alt="logo" /></a>
+                <a href="#" class="header__logo">CV</a>
                 <div class="header__menu menu">
                     <nav class="menu__body">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a href="" class="menu__link">about</a>
+                                <a href="#about" class="menu__link">about</a>
                             </li>
                             <li class="menu__item">
-                                <a href="" class="menu__link">education</a>
+                                <a href="#portfolio" class="menu__link">portfolio</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#education" class="menu__link">education</a>
                             </li>
                         </ul>
                     </nav>
@@ -59,7 +62,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section id="about" class="about">
                 <div class="about__container">
                     <div class="about__wraper">
                         <h2 class="about__title title--section">About me</h2>
@@ -100,13 +103,13 @@
                     </div>
                 </div>
             </section>
-            <section class="portfolio">
+            <section id="portfolio" class="portfolio">
                 <div class="portfolio__container">
                     <h2 class="about__title title--section">Portfolio</h2>
                     <div class="portfolio__tabs tabs">
                         <nav class="tabs__buttons">
-                            <a class="tabs__button tabs__button--active" href="#" data-tab="tab_sites">sites</a>
-                            <a class="tabs__button" href="#" data-tab="tab_games">mini-games</a>
+                            <a class="tabs__button tabs__button--active" href="&" data-tab="tab_sites">sites</a>
+                            <a class="tabs__button" href="&" data-tab="tab_games">mini-games</a>
                         </nav>
                         <div class="tabs__body">
                             <ul id="tab_sites" class="tabs__block tabs__block--active">
@@ -197,7 +200,7 @@
                     </div>
                 </div>
             </section>
-            <section class="education">
+            <section id="education" class="education">
                 <div class="education__container">
                     <h2 class="about__title title--section">Education</h2>
                     <ul class="education__info">
@@ -212,11 +215,20 @@
         </main>
         <footer class="footer">
             <div class="footer__container">
-                footer
+                <ul class="footer__social-links social-links">
+                    <li class="social-links__link">
+                        <a target="_blank" href="https://t.me/ego_dubovik"><i class="bx bxl-telegram"></i></a>
+                    </li>
+                    <li class="social-links__link">
+                        <a target="_blank" href="https://github.com/Egor-Dubovik"><i class="bx bxl-github"></i></a>
+                    </li>
+                </ul>
+                <div class="footer__year">2023</div>
             </div>
         </footer>
+        <div class="blackout"></div>
     </div>
-    <script src="./js/script.js"></script>
+    <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>
