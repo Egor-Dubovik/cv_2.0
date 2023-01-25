@@ -7,17 +7,17 @@ export const switchTabs = (event) => {
     event.preventDefault();
 
     tabButtons.forEach((button) =>
-      button.classList.remove("tabs__button--active")
+      button.classList.remove("tabs__button_active")
     );
 
     const currentTabButton = event.target;
-    currentTabButton.classList.add("tabs__button--active");
+    currentTabButton.classList.add("tabs__button_active");
 
     tabBlocks.forEach((block) => {
       const currentBlock = currentTabButton.dataset.tab;
       currentBlock === block.id
-        ? block.classList.add("tabs__block--active")
-        : block.classList.remove("tabs__block--active");
+        ? block.classList.add("tabs__block_active")
+        : block.classList.remove("tabs__block_active");
     });
   }
 };

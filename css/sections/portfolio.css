@@ -30,7 +30,7 @@
   height: 3px;
   background-color: rgba(224, 224, 224, 0.6);
 }
-.tabs__button--active::after {
+.tabs__button_active::after {
   content: "";
   animation: tab-button-animation 0.5s ease-out forwards;
 }
@@ -41,7 +41,7 @@
   display: none;
   opacity: 0;
 }
-.tabs__block--active {
+.tabs__block_active {
   display: flex;
   flex-direction: column;
   gap: 40px;

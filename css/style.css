@@ -60,25 +60,26 @@ h4 {
   font-weight: 500;
 }
 
-.title--section {
+.title_section {
   margin-bottom: 30px;
 }
 
 .blackout {
-  transition: all 0.4s ease;
+  transition: all 0.5s ease-in;
 }
-/* .blackout._active {
+.blackout._active {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  z-index: 4;
-} */
+  backdrop-filter: blur(5px);
+  z-index: 3;
+}
 
 @media (max-width: 768px) {
-  .title--section {
+  .title_section {
     margin-bottom: 20px;
   }
 }
